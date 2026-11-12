@@ -205,6 +205,19 @@ pytest
 python -m daedalus validate --root .
 ```
 
+## Known limitations
+
+- `v0.1` targets OpenCode only. Claude Code/Codex sync, ai-memory, cross-repo
+  workspaces, and the TypeScript plugin are planned for later releases.
+- The Windows installer installs the OpenCode **CLI** via `winget`. The desktop
+  app is a separate package.
+- `install.sh` is for Linux, macOS, and WSL2. Native Windows uses
+  `install.ps1`.
+- The Python package is not published to PyPI yet. Use the one-liner or a source
+  checkout.
+- Release artifacts are built from the tagged commit. Re-tagging an existing
+  version is not supported.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

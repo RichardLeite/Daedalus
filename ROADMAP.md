@@ -152,10 +152,10 @@
 - [x] Geração de `SHA256SUMS`
 - [x] Upload dos artefatos no workflow
 - [x] Publicação automática da release ao empurrar tag `v*`
-- [ ] CI verde nos três SOs
-- [ ] Criar tag `v0.1.0`
-- [ ] Publicar release no GitHub
-- [ ] Registrar limitações conhecidas
+- [x] CI verde nos três SOs
+- [x] Criar tag `v0.1.0`
+- [x] Publicar release no GitHub
+- [x] Registrar limitações conhecidas
 
 ## Fase 10 — Instaladores one-liner
 
@@ -172,8 +172,8 @@
 - [x] Help e validação de sintaxe nos testes
 - [x] CI job de instaladores em Linux, macOS e Windows
 - [x] README com quick install e opções
-- [ ] Push para o GitHub para ativar as URLs raw
-- [ ] Teste E2E do one-liner a partir do GitHub público
+- [x] Push para o GitHub para ativar as URLs raw
+- [x] Teste E2E do one-liner a partir do GitHub público
 
 ## Pós-v0.1 (v0.2+)
 
@@ -205,3 +205,5 @@
 | 2026-11-12 | 10 | Validado `winget Anomaly.OpenCode` (OpenCode CLI 2.2.7) |
 | 2026-11-12 | 9 | Workflow de release: wheel, sdist, source tar.gz, SHA256SUMS e GitHub Release |
 | 2026-11-12 | 9 | Job de CI dos instaladores em Linux, macOS e Windows |
+| 2026-11-12 | 9 | CI verde; tag `v0.1.0` e release publicados com wheel, sdist, source tar.gz e SHA256SUMS |
+| 2026-11-12 | 10 | URLs raw dos instaladores validadas em modo dry-run |
