@@ -1,0 +1,52 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "orchestrator",
+  "instructions": ["CONVENTIONS.md"],
+  "permissions": [
+    { "action": "shell", "resource": "*", "effect": "allow" },
+    { "action": "shell", "resource": "git push *", "effect": "ask" },
+    { "action": "shell", "resource": "git reset --hard *", "effect": "ask" },
+    { "action": "shell", "resource": "git clean *", "effect": "ask" },
+    { "action": "shell", "resource": "git branch -D *", "effect": "ask" },
+    { "action": "read", "resource": "*.env", "effect": "ask" },
+    { "action": "question", "resource": "*", "effect": "allow" }
+  ],
+  "agents": {
+    "code-reviewer": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "security-reviewer": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "debugger": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "pr-reviewer": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "tech-lead": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "explorer": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "ux-analyzer": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "image-analyzer": {
+      "permissions": [{ "action": "edit", "resource": "*", "effect": "deny" }]
+    },
+    "token-manager": {
+      "permissions": [
+        { "action": "edit", "resource": "*", "effect": "deny" },
+        { "action": "shell", "resource": "*", "effect": "deny" }
+      ]
+    },
+    "business-analyst": {
+      "permissions": [{ "action": "shell", "resource": "*", "effect": "deny" }]
+    },
+    "product-manager": {
+      "permissions": [{ "action": "shell", "resource": "*", "effect": "deny" }]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "data",
+  "description": "Data pipelines, analytics, SQL, and data quality.",
+  "agents": ["database-dev", "backend-dev", "qa-engineer"],
+  "skills": ["db-migrations", "property-testing", "observability"]
+}

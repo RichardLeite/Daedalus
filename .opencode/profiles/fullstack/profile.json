@@ -1,0 +1,6 @@
+{
+  "name": "fullstack",
+  "description": "End-to-end product work across API, UI, and database.",
+  "agents": ["backend-dev", "frontend-dev", "database-dev", "qa-engineer"],
+  "skills": ["api-testing", "e2e-testing", "db-migrations", "feature"]
+}

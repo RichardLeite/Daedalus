@@ -1,0 +1,4 @@
+# Daedalus
+.env
+dist/
+coverage/

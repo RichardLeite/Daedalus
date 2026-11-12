@@ -1,0 +1,6 @@
+{
+  "name": "minimal",
+  "description": "Core agents and skills only. No stack-specific guidance.",
+  "agents": [],
+  "skills": []
+}

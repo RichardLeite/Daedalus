@@ -1,0 +1,6 @@
+{
+  "name": "frontend",
+  "description": "Web UI, components, state, accessibility, and design systems.",
+  "agents": ["frontend-dev", "ux-analyzer", "image-analyzer"],
+  "skills": ["e2e-testing", "performance"]
+}

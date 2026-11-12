@@ -1,0 +1,6 @@
+{
+  "name": "backend",
+  "description": "Backend services, APIs, databases, and integrations.",
+  "agents": ["backend-dev", "database-dev", "security-reviewer"],
+  "skills": ["api-testing", "db-migrations", "observability", "security-audit-api"]
+}
